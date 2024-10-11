@@ -2,7 +2,7 @@ package com.example.myapplication1
 
 
 
-fun main(){
+fun main() {
     // Byte
     val ByteValue: Byte = 10
     println("Byte: $ByteValue")
