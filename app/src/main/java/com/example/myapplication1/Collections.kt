@@ -89,4 +89,9 @@ fun ContohMap(){
     val shapesLocked: Map<String, Int> = mutableShapes
     println(shapesLocked)
 }
+fun main(){
+    ContohList()
+    ContohSet()
+    ContohMap()
+}
 
