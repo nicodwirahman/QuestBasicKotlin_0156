@@ -55,4 +55,38 @@ fun ContohSet(){
     val shapeLocked: Set<String> = mutableShapes
     println(shapeLocked)
 }
+fun ContohMap(){
+    println()
+    println("=== Map ===")
+
+
+    // Map Read-Only
+    val readOnlyShape: Map<String, Int> = mapOf("Circle" to 1, "Square" to 2, "Triangle" to 3)
+    println(readOnlyShape)
+
+
+    // Map Mutable
+    val mutableShapes: MutableMap<String, Int> = mutableMapOf("Circle" to 1, "Square" to 2, "Triangle" to 3)
+    println(mutableShapes)
+
+
+    // Menambahkan data kedalam Map Mutable
+    mutableShapes["Rectangle"] = 4
+    println(mutableShapes)
+
+
+    // Menghapus data dari Map Mutable
+    mutableShapes.remove("Circle")
+    println(mutableShapes)
+
+
+    // Mengubah data di dalam Map Mutable
+    mutableShapes["Square"] = 5
+    println(mutableShapes)
+
+
+    // Map Read-Only
+    val shapesLocked: Map<String, Int> = mutableShapes
+    println(shapesLocked)
+}
 
