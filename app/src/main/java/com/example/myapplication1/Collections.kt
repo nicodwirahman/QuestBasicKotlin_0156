@@ -55,27 +55,4 @@ fun ContohSet(){
     val shapeLocked: Set<String> = mutableShapes
     println(shapeLocked)
 }
-fun ContohSet(){
-    println()
-    println("=== Set ===")
 
-
-    // Set Read-Only
-    val readOnlyAbjad = setOf("A", "B", "C")
-    println(readOnlyAbjad)
-
-
-    // Set Mutable
-    val mutableShapes: MutableSet<String> = mutableSetOf("Circle", "Square", "Triangle")
-    println(mutableShapes)
-
-
-    // Menambahkan data kedalam Set Mutable
-    mutableShapes.add("Rectangle")
-    println(mutableShapes)
-
-
-    // Set Read-Only
-    val shapeLocked: Set<String> = mutableShapes
-    println(shapeLocked)
-}
